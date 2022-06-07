@@ -1,0 +1,38 @@
+#flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+#source,
+#target1,
+#target2 {
+    border: 2px solid black;
+    width: 350px;
+    height: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+
+
+#status {
+    border: 2px solid black;
+    width: 100px;
+    height: 150px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    max-width: 32%;
+    max-height: 32%;
+
+}
+
+#status-source,
+#status-target1,
+#status-target2 {
+    text-align: center;
+
+
+}

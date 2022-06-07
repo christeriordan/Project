@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="boxes.css">
+    <script src="boxes.js"></script>
+</head>
+
+<body>
+    <div id="flex-container">
+        <!-- Source box -->
+        <div id="source" ondrop="drop(event)" ondragover="allowDrop(event)">
+            <img src="images/css.jpg" draggable="true" ondragstart="drag(event)" id="img1">
+            <img src="images/css.jpg" draggable="true" ondragstart="drag(event)" id="img2">
+            <img src="images/css.jpg" draggable="true" ondragstart="drag(event)" id="img3">
+            <img src="images/css.jpg" draggable="true" ondragstart="drag(event)" id="img4">
+            <img src="images/css.jpg" draggable="true" ondragstart="drag(event)" id="img5">
+            <img src="images/css.jpg" draggable="true" ondragstart="drag(event)" id="img6">
+            <img src="images/css.jpg" draggable="true" ondragstart="drag(event)" id="img7">
+        </div>
+        <!-- Target1 box -->
+        <div id="target1" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+        </div>
+        <!-- Target2 box -->
+        <div id="target2" ondrop="drop(event)" ondragover="allowDrop(event)">
+
+        </div>
+        <!-- Status box -->
+        <div id="status">
+            <!-- Displays the number of pictures in the different boxes. -->
+            <p id="status-source"></p>
+            <p id="status-target1"></p>
+            <p id="status-target2"></p>
+        </div>
+    </div>
+
+</body>
+
+</html>
